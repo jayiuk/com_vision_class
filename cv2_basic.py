@@ -15,6 +15,6 @@ cv.waitKey()
 cv.destroyAllWindows()
 
 print(type(img))
-print(img.shape)
+print(img.shape) #실제 좌표 인식할 때 x는 컬럼, y는 행
 print(img[0,0,0], img[0,0,1], img[0,0,2])
 print(img[0,1,0], img[0,1,1], img[0,1,2])
