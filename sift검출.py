@@ -15,4 +15,5 @@ gray = cv.drawKeypoints(gray, kp, None, flags = cv.DRAW_MATCHES_FLAGS_DRAW_RICH_
 cv.imshow("sift", gray)
 
 cv.waitKey()
-cv.destroyAllWindows() 
+cv.destroyAllWindows()
+print(len(kp)) 
